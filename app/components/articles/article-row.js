@@ -5,7 +5,7 @@ export default Ember.Component.extend({
 	article: null,
 	articleStates: null,
 	actions: {
-		saveArticle(article) {
+		saveArticle() {
 			let article = this.get('article');
 
 			if (article.get('hasDirtyAttributes')) {
